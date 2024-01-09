@@ -73,18 +73,3 @@ button:hover{
 .operator{
     color: #f67c14;
 }
-
-@media (max-width: 480px) {
-    .Calculator{
-        width:60%;
-        height: 90vh;
-    }
-    input{
-        width: 328px;
-    }
-    button{
-        width: 70px;
-        height: 63px;
-        padding:0px;
-    }
-}
