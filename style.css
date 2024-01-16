@@ -74,13 +74,13 @@ button:hover{
     color: #f67c14;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     .Calculator{
         width:90%;
         height: 90vh;
     }
     input{
-        width: 318px;
+        width: 328px;
     }
     button{
         width: 70px;
