@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif ;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height:100vh ;
+    background:linear-gradient(300deg,#04faea, #0070f1, #f503e5);
+    background-size: 180% 180%;
+    animation: container-animation 13s ease infinite;
+    padding: 10px;
+}
+@keyframes container-animation{
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.To-Do{
+    width: 100%;
+    max-width: 540px;
+    background:#ffffff;
+    margin:100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px; 
+    }
+.To-Do h2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.To-Do h2 img{
+    width:  100px;
+    margin-left: 20px;
+    height: 110px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(166, 154, 154, 0.778);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    border-radius: 50px;
+    background-color: rgb(44, 249, 99);
+    color: white;
+}
+ul li{
+    list-style:none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 27px;
+    width:27px;
+    border-radius: 50%;
+    background-image: url(./circle.svg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.check{
+ color:#555 ;
+ text-decoration: line-through;
+}
+ul li.check:before{
+    background-image:url(./check-circle-fill.svg);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+background: rgb(248, 17, 0);
+}
