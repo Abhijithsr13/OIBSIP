@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1a1a1a;
+    color: azure;
+    padding: 50px 46px 70px 50px; /* Shorthand notation */
+  }
+
+  
+  .image {
+    padding: 5px 10px 10px 5px; /* Shorthand notation */
+  }
+  
+  .heading {
+    font-size: 55px;
+  }
+  
+  #icon {
+    font-size: 20px;
+  }
+  
+  .first {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  }
+  
+img{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    box-shadow: 0px 5px 5px whitesmoke;
+    margin: 40px 30px 40px 4px ;
+}
+.early{
+    display: flex;
+}
+.photo{
+    height: 28vh;
+    width: 291px;
+    padding:10px;
+}
+.second{
+    height: 36vh;
+    width: 291px;
+    padding:15px;
+}
+.third{
+  height: 52vh;
+  width: 291px;
+  padding:27px;
+}
+ h1{
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 50px;
+ }
+ h4{
+  font-family: 'Protest Riot', sans-serif;
+ }
+ #icon{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+ }
+
+@media screen and (max-width: 768px) {
+    body {
+      padding: 50px 10px; 
+    }
+  
+    .heading {
+      font-size: 30px;
+    }
+  
+    #icon {
+      font-size: 14px;
+    }
+  }
