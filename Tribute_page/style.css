@@ -6,12 +6,12 @@ html {
   body {
     background-color: #1a1a1a;
     color: azure;
-    padding: 50px 46px 70px 50px; /* Shorthand notation */
+    padding: 50px 46px 70px 50px; 
   }
 
   
   .image {
-    padding: 5px 10px 10px 5px; /* Shorthand notation */
+    padding: 5px 10px 10px 5px; 
   }
   
   .heading {
@@ -24,7 +24,7 @@ html {
   
   .first {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    flex-wrap: wrap; 
   }
   
 img{
